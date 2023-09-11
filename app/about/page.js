@@ -9,7 +9,6 @@ const [comments,setcomments]=useState([]);
       console.log(Response);
       setcomments(Response.data)
     })
-   
   })
   return(
     <>
