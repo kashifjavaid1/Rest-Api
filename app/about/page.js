@@ -1,7 +1,6 @@
 'use client'
 import axios from "axios";
 import { useEffect, useState } from "react";
-
 function GetData() {
 const [comments,setcomments]=useState([]);
   useEffect(()=>{
