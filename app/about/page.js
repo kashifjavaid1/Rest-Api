@@ -16,7 +16,7 @@ const [comments,setcomments]=useState([]);
       comments.map((data,index)=>{
        return(
         <>
-        <h3>ID</h3>
+        <h3 key={index}>ID</h3>
         <p>{data.id}</p>
         <h3>Email</h3>
         <p>{data.email}</p>
